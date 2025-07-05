@@ -1,12 +1,18 @@
 #!/usr/bin/env bash
 
+# Variables
 output_file="wofram-dump.wl"
 directories=("libsCP" "libsJA" "QW")
 extensions=("m" "wl")
 
+# Output file cleaning
 > "$output_file"
 
+# Searching in each directory
 for dir in "${directories[@]}"; do
+  echo "Updating $dir..."
+  git -C "$dir" pull --quiet
+
   for ext in "${extensions[@]}"; do
     find "$dir" -type f -name "*.$ext" | while read -r file; do
       # If it's a .wl file, include it directly
