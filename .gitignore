@@ -1,0 +1,51 @@
+# Archivos de salida (PDF, DVI, etc.)
+main.pdf
+*.dvi
+*.synctex.gz
+*.bbl
+*.blg
+*.out
+
+# Archivos auxiliares de compilación
+*.aux
+*.log
+*.lof
+*.lot
+*.toc
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.bcf
+*.run.xml
+
+# Archivos temporales de editores (Vim, Emacs, etc.)
+*~
+.*.swp
+*.backup
+*.swo
+
+# Paquetes y estilos locales (opcional, si no quieres versionarlos)
+*.sty
+*.cls
+
+# Output de BibTeX
+*.bbl
+*.blg
+
+# Output de glossaries
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+
+# Output de minted (si usas sintaxis resaltada)
+*.pyg
+
+# Entornos como Overleaf generan estos
+*.zip
