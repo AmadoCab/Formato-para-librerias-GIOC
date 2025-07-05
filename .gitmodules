@@ -1,0 +1,9 @@
+[submodule "libsJA"]
+	path = libsJA
+	url = git@github.com:deleonja/libs.git
+[submodule "libsCP"]
+	path = libsCP
+	url = git@github.com:carlospgmat03/libs.git
+[submodule "QW"]
+	path = QW
+	url = git@github.com:AmadoCab/QW.git
